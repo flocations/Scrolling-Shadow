@@ -7,10 +7,6 @@
 		<meta name="Description" content="Page Description." />
 		<meta name="Keywords" content="Keywords, keywords2" />
 		
-		<!-- Style -->
-		<link rel="stylesheet" href="scrollingShadows.1.0.0.css">
-		
-		
 		<!--jQuery -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		
@@ -19,6 +15,10 @@
 		
 		<!-- Script -->
 		<script type="text/javascript" src="scrollingShadows.1.0.0.js"></script>
+		
+		<!-- Style -->
+		<link rel="stylesheet" href="scrollingShadows.1.0.0.css">
+		
 		
 	</head>
 	<body>
@@ -31,9 +31,29 @@
 			<li>or at the bottom</li>
 		</ul>
 		
+		
+		<div id="listing2">
+			<div>1. Scroll this list</div>
+			<div>2. You will see a shadow effect</div>
+			<div>3. Highlighting when </div>
+			<div>the scrolling is at the top</div>
+			<div>or at the bottom</div>
+		</div>
+		
+		<div id="listing3">
+			<div>This one is big enough</div>
+			<div>1. Scroll this list</div>
+			<div>2. You will see a shadow effect</div>
+			<div>3. Highlighting when </div>
+			<div>the scrolling is at the top</div>
+			<div>or at the bottom</div>
+		</div>
+		
 		<script type="text/javascript">
 			
 			scrollingShadows.load( '#listingElement' , { } );
+			scrollingShadows.load( '#listing2' , { } );
+			scrollingShadows.load( '#listing3' , { } );
 		</script>
 	</body>
 </html>

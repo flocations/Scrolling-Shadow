@@ -6,10 +6,36 @@ overflow-y: scroll;
 height: 100px;
 width: 300px;
 margin: 30px auto;
+position: relative;
 }
 #listingElement li{
 	padding: 20px 0;
 }
+
+
+#listing2{
+background-color: lightBlue;
+border-top: 1px solid #D0D0D0;
+padding: 0;
+overflow-y: scroll;
+height: 50px;
+width: 300px;
+margin: 30px auto;
+position: relative;
+}
+
+#listing3{
+background-color: lightBlue;
+border-top: 1px solid #D0D0D0;
+padding: 0;
+overflow-y: scroll;
+height: 150px;
+width: 300px;
+margin: 30px auto;
+position: relative;
+}
+
+
 
 /* Scroll bar style in Webkit */
 /* Let's get this party started */ 
